@@ -1,0 +1,13 @@
+to compile the program in Linux, the following command should be entered
+
+g++ Super_Graph_Coloring.cpp
+
+then the executable file will be created with name a.out
+
+solving sudoku: to use the graph coloring for solving sudoku problem, the python file "create_sudoku_graph.py" is used.
+This python file will read a file named "sudoku.csv" in which the sodoku table is represented as a list which shows the initial values in the table
+each row of the table correspond to a pre-assigned cell in sudoku table the first column in the row shows the row the second shows the column and the third shows the value
+
+then this python file wil execute the super graph coloring program with the corresponding graph and shows the result (solved sudoku)
+
+generating random graphs : the python file named "random_graph.py"
